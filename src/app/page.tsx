@@ -5,7 +5,7 @@ const sections = [
     title: "Research",
     description: "RC造集合住宅の温熱環境・省エネルギー化を中心とした建築環境工学の研究活動",
     href: "/research",
-    items: ["Publications", "Materials", "Tools"],
+    items: ["Projects", "Publications", "Materials", "Tools"],
   },
   {
     title: "Hobby",

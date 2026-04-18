@@ -5,6 +5,11 @@ export const metadata: Metadata = { title: "Research" };
 
 const subpages = [
   {
+    title: "Projects",
+    description: "現在取り組んでいる研究プロジェクトの紹介",
+    href: "/research/projects",
+  },
+  {
     title: "Publications",
     description: "論文・学会発表の記録",
     href: "/research/publications",
@@ -16,7 +21,7 @@ const subpages = [
   },
   {
     title: "Tools",
-    description: "研究用ツール・ソフトウェア",
+    description: "研究用ツール・ソフトウェア・環境構築記事",
     href: "/research/tools",
   },
 ];
@@ -31,7 +36,7 @@ export default function ResearchPage() {
         </p>
       </div>
 
-      <div className="grid gap-6 sm:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {subpages.map((page) => (
           <Link
             key={page.href}
