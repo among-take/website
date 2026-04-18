@@ -27,7 +27,7 @@ export default function ResearchPage() {
       <div>
         <h1 className="text-3xl font-bold tracking-tight">Research</h1>
         <p className="mt-3 max-w-2xl text-zinc-600 dark:text-zinc-400">
-          建築環境工学を基盤に、CFDと機械学習を組み合わせた室内温熱環境予測の研究を行っています。
+          RC造集合住宅の温熱環境・省エネルギー化をメインテーマに、実測・熱負荷シミュレーション・CFD解析を組み合わせて評価しています。CFDと機械学習によるサロゲートモデル開発は、設計支援の高速化に向けた手段として並行して取り組んでいます。
         </p>
       </div>
 

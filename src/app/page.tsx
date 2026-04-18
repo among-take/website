@@ -3,7 +3,7 @@ import Link from "next/link";
 const sections = [
   {
     title: "Research",
-    description: "CFD-ML サロゲートモデル、建築環境工学の研究活動",
+    description: "RC造集合住宅の温熱環境・省エネルギー化を中心とした建築環境工学の研究活動",
     href: "/research",
     items: ["Publications", "Materials", "Tools"],
   },
@@ -29,7 +29,7 @@ export default function Home() {
           東京大学 工学系研究科 建築学専攻
         </p>
         <p className="max-w-2xl text-zinc-600 dark:text-zinc-400">
-          建築環境工学を専門とし、CFDと機械学習を組み合わせたサロゲートモデルの研究に取り組んでいます。
+          RC造集合住宅の温熱環境・省エネルギー化を主テーマとし、実測・シミュレーション・CFDを軸に研究に取り組んでいます。CFDと機械学習を組み合わせたサロゲートモデル開発はその手段の一つです。
         </p>
         <Link
           href="/about"

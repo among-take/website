@@ -17,17 +17,17 @@ export default function AboutPage() {
           <dt className="font-medium text-zinc-500">Lab</dt>
           <dd>前研究室（建築環境学）</dd>
           <dt className="font-medium text-zinc-500">Research</dt>
-          <dd>CFD-ML サロゲートモデル / 建築熱環境シミュレーション</dd>
+          <dd>RC造集合住宅の温熱環境・省エネルギー化 / CFD-MLサロゲートモデル</dd>
         </dl>
       </section>
 
       <section className="space-y-3">
         <h2 className="text-xl font-semibold">Research Interests</h2>
         <ul className="list-disc pl-5 space-y-1 text-sm text-zinc-700 dark:text-zinc-300">
-          <li>CFDと機械学習の融合によるサロゲートモデル構築</li>
-          <li>熱回路網モデルとの連成に向けた汎用CFD代替</li>
-          <li>3D U-Net / POD-ANN による室内温度場予測</li>
-          <li>集合住宅の空調・換気設計最適化</li>
+          <li>RC造集合住宅の断熱性能・空調方式改善による温熱環境・省エネルギー効果の評価</li>
+          <li>実測・熱負荷シミュレーション・CFD解析による多角的評価</li>
+          <li>CFDと機械学習の融合によるサロゲートモデル構築（手段）</li>
+          <li>3D U-Net による室内温度場予測・熱回路網モデルとの連成</li>
         </ul>
       </section>
 
