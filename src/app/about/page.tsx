@@ -15,7 +15,16 @@ export default function AboutPage() {
           <dt className="font-medium text-zinc-500">Affiliation</dt>
           <dd>東京大学 工学系研究科 建築学専攻 M2</dd>
           <dt className="font-medium text-zinc-500">Lab</dt>
-          <dd>前研究室（建築環境学）</dd>
+          <dd>
+            <a
+              href="https://maelab.arch.t.u-tokyo.ac.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 hover:underline dark:text-blue-400"
+            >
+              前研究室（建築環境学）
+            </a>
+          </dd>
           <dt className="font-medium text-zinc-500">Research</dt>
           <dd>RC造集合住宅の温熱環境・省エネルギー化 / CFD-MLサロゲートモデル</dd>
         </dl>
